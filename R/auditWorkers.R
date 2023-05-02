@@ -17,6 +17,12 @@
 #' means less than one are generally considered poor quality, though means can be
 #' unreliable for workers with a low number of total HITs.
 #'
+#' @example 
+#' data(movieReviewOutput)
+#' auditWorkers(current_experiment_results = movieReviewOutput, 
+#'             reference_results = NULL,
+#'             exclude_workers = TRUE) 
+#'
 #' @return A dataframe containing workers' posterior means and HIT frequencies.
 #'
 #' @author Ryden Butler
